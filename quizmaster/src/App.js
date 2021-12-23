@@ -41,7 +41,7 @@ function getQuestionData(){
 
 
       return(
-        <div>
+        <div className= "main">
           
           <h1 className="title">QUIZMASTER</h1>
         

@@ -12,16 +12,16 @@ export default function Question(props){
     return(
         <div className="question--first">
             
-        <h2 className="question">Question: {props.question}</h2>
+        <h2 className="question">Question: </h2>
+        <div className= "question--data">{props.question}
+        </div>
        
        
-        <h3 className="answers">Possible answers:  
+        <h3 className="answers">Possible answers:  </h3>
        
-       
-        {props.answers}
+        <div className= "answer--data"><p>{props.answers}</p>
+        </div>
         
-        
-        </h3>
 </div>
     )
 
